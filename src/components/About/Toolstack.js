@@ -2,30 +2,40 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
-  SiPostman,
-  SiSlack,
   SiVercel,
-  SiMacos,
+  SiPostman,
+  SiGit,
+  SiGithub,
+  SiDocker,
+  SiAmazonaws,
+  SiIntellijidea,
+  SiMicrosoftexcel,
+  SiPostgresql,
+  SiMysql,
 } from "react-icons/si";
 
 function Toolstack() {
+  const toolIcons = [
+    <SiVisualstudiocode />,
+    <SiVercel />,
+    <SiPostman />,
+    <SiGit />,
+    <SiGithub />,
+    <SiDocker />,
+    <SiAmazonaws />,
+    <SiIntellijidea />,
+    <SiMicrosoftexcel />,
+    <SiPostgresql />,
+    <SiMysql />,
+  ];
+
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-      </Col>
+      {toolIcons.map((icon, index) => (
+        <Col key={index} xs={4} md={2} className="tech-icons">
+          {icon}
+        </Col>
+      ))}
     </Row>
   );
 }
