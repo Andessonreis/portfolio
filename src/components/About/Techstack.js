@@ -1,31 +1,22 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  DiJava,
   DiReact,
   DiNodejs,
-  DiMongodb,
   DiPython,
-  DiGit,
   DiJavascript1,
   DiCode,
   DiBootstrap,
   DiJqueryLogo,
-  DiPostgresql,
-  DiCss3,
-  DiHtml5,
 } from "react-icons/di";
 import {
   SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row style={{ justifayContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <DiCode />
       </Col>
@@ -45,20 +36,13 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiRedis />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPostgresql />
+        <DiBootstrap />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJqueryLogo />
       </Col>
     </Row>
   );
