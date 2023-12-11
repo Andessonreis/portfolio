@@ -13,6 +13,7 @@ import {
   SiPostgresql,
   SiMysql,
 } from "react-icons/si";
+import { DiMongodb } from "react-icons/di";
 
 function Toolstack() {
   const toolIcons = [
@@ -27,6 +28,7 @@ function Toolstack() {
     <SiMicrosoftexcel />,
     <SiPostgresql />,
     <SiMysql />,
+    <DiMongodb />,
   ];
 
   return (
