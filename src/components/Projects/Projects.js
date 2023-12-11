@@ -1,3 +1,4 @@
+/*
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
@@ -94,3 +95,4 @@ function Projects() {
 }
 
 export default Projects;
+*/
