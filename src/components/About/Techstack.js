@@ -29,7 +29,9 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        {/* Substitua TbBrandGolang pelo ícone correspondente ao Golang */}
+        {/* Exemplo: */}
+        {/* <IconeGolang /> */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
