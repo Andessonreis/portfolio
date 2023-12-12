@@ -31,8 +31,7 @@ function Projects() {
               description="System of management for ifba in java and Spring"
               ghLink="https://github.com/jonatasfbastos/sgif_backend"
             />
-          </Col>
-         
+          </Col>         
         </Row>
       </Container>
     </Container>
