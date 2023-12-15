@@ -1,13 +1,14 @@
 # Portfólio
 
 ## Tecnologias
+```
 - React.js
 - Node.js
 - Express.js
 - CSS3
 - VsCode
 - Vercel
-
+```
 ## Como Iniciar
 1. Clone este repositório.
 2. Instale as dependências com `npm install`.
