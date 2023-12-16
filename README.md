@@ -2,12 +2,12 @@
 
 ## Tecnologias
 ```
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+-> React.js
+-> Node.js
+-> Express.js
+-> CSS3
+-> VsCode
+-> Vercel
 ```
 ## Como Iniciar
 1. Clone este repositório.
