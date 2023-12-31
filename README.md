@@ -22,7 +22,6 @@ Este projeto é licenciado sob a [Licença Apache 2.0](https://www.apache.org/li
 
 ---
 
-
 **Créditos:**
 Este projeto foi inspirado por [Soumyajit4419](https://github.com/soumyajit4419/Portfolio).
 [Repositório Original](https://github.com/soumyajit4419/Portfolio)
