@@ -22,7 +22,6 @@ Contribuições são bem-vindas! Abra uma issue ou envie um pull request.
 Este projeto é licenciado sob a [Licença Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 ---
-
 **Créditos:**
 Este projeto foi inspirado por [Soumyajit4419](https://github.com/soumyajit4419/Portfolio).
 [Repositório Original](https://github.com/soumyajit4419/Portfolio)
