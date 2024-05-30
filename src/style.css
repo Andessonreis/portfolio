@@ -307,7 +307,7 @@ button:focus {
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  padding-top: 7em !important;
 }
 
 @media (max-width: 767px) {
@@ -402,6 +402,7 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
+  text-align: center;
   background-color: rgb(10, 4, 22);
   bottom: 0 !important;
   padding-top: 10px !important;
@@ -412,6 +413,7 @@ button:focus {
 }
 
 .footer-body {
+  align-items: center;
   z-index: 1;
   text-align: center !important;
 }
